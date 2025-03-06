@@ -1,0 +1,355 @@
+.aboutme {
+    padding-top: 1px;
+}
+
+.aboutme-title {
+    color: white;
+    margin-top: 50px;
+    font-family: 'Orbitron';
+    font-size: 60px;
+    text-align: center;
+}
+
+.aboutme-title span{
+    color: orangered;
+}
+
+.general-aboutme{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-content-item{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    flex-direction: column;
+    max-width: 500px;
+    background-color: rgb(39, 51, 84);
+    padding: 30px;
+    border-radius: 8px;
+    margin-left: 40px;
+}
+
+.bg{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 800px;
+    min-height: 600px;
+    position: relative;
+    bottom: 80px;
+    background-image: url('../../assets/img/backgoundg.png');
+}
+
+.about-content-descr{
+    text-align: center;
+    font-family: 'Ubuntu';
+    color: white;
+    font-size: 20px;
+    max-width: 400px;
+    line-height: 1.5;
+    letter-spacing: 0.4px;
+    text-align: justify;
+}
+
+.slide-in {
+    opacity: 1;
+    transform: translateY(0); 
+}
+
+.aboutme-btn{
+    width: 200px;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: 0.4s;
+    cursor: pointer;
+    transform: scale(1);
+    border: 5px solid rgb(8, 90, 178);
+    background-color: rgba(8, 90, 178, 0.975);
+}
+
+.aboutme-btn span{
+    font-size: 20px;
+}
+
+.aboutme-btn:hover{
+    transform: scale(1.1);
+    background-color: white;
+    color: orangered;
+}
+
+.skills{
+    padding-top: 1px;
+}
+
+.skills-title{
+    color: white;
+    margin-top: 50px;
+    font-family: 'Orbitron';
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.skills__content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.skills-title span{
+    color: orangered;
+}
+
+.skills-subtitle{
+    color: white;
+    font-family: 'Ubuntu';
+    font-size: 50px;
+    text-align: center;
+}
+
+.skills-subtitle span{
+    color: orangered;
+}
+
+.skills__item{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 8px;
+    max-width: 500px;
+    background-color: rgb(39, 51, 84);
+}
+
+.skills-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.skills-item__subtitle{
+    color: white;
+    font-family: 'Ubuntu';
+    font-size: 30px;
+    text-align: center;
+}
+
+.skills-descr{
+    color: white;
+    max-width: 600px;
+    font-size: 18px;
+    line-height: 1.1;
+    text-align: left;
+}
+
+.myworks-title{
+    color: white;
+    margin-top: 130px;
+    font-family: 'Orbitron';
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.myworks-title span{
+    color: orangered;
+}
+
+
+.project-item{
+    background-color: rgb(24, 142, 215);
+    border-radius: 20px;
+    padding: 20px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-item img{
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.project-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-item-descr{
+    max-width: 800px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.project-item-title{
+    font-family: 'Ubuntu';
+    font-size: 60px;
+    text-align: center;
+    color: white;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project-item-btn{
+    background-color: orangered;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+.project{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 100px;
+}
+
+.projects-titles-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.project-title{
+    color: white;
+    border: 2px solid rgb(0, 119, 255);
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: .5s;
+    margin-bottom: 50px;
+    transform: scale(1);
+}
+
+.project-title:hover{
+    background-color: rgb(24, 142, 215);
+    border: 2px solid white;
+    transform: scale(1.1);
+}
+  
+
+.contacts-title span{
+    color: orangered;
+}
+
+.contacts-title{
+    color: white;
+    font-family: 'Orbitron';
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-section {
+    padding: 50px 20px;
+    max-width: 840px;
+    margin: 0 auto;
+    background-color: #1d263a;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.contact-form {
+    display: grid;
+    gap: 20px;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    background-color: #2a364e;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.contact-form textarea {
+    resize: none;
+    height: 120px;
+}
+
+.contact-form button {
+    background-color: orangered;
+    color: #101828;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .5s;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #00d8ff;
+}
+
+.projects-container {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 1200px;
+    text-align: center;
+  }
+
+  .project-item-btn {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #ff5722;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .project-item-btn:hover {
+    background-color: #e64a19;
+  }
+  
+  .project-item-descr {
+    font-size: 18px;
+    color: black;
+    font-weight: 700px;
+  }
+
+.contact-form input, 
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(8, 90, 178);
+  color: #fff;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: orangered;
+}

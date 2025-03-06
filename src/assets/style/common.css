@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu';
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+button,
+input {
+    outline: none;
+    border: none;
+    background: transparent;
+}
+
+ video {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+
+
+body {
+    background-color: rgb(11, 21, 33);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+body.light-theme {
+    background-color: #fffdf3;
+}
+
+body.light-theme h2{
+    color: black;
+}
+
+body.light-theme input {
+    color: #101828;
+}
+
+input:focus {
+    border: 1px solid #007bff;
+}
+
+body.light-theme .contacts-title {
+    color: white;
+}
+
+body.light-theme .contact-section input,
+body.light-theme .contact-section textarea {
+    background-color: white;
+    color: black;
+}
+
+body.light-theme .project-title {
+    color: black;
+    border: 2px solid black;
+}
+
+body.light-theme .skills__item,
+body.light-theme .about-content-item,
+body.light-theme .project-item {
+    background-color: rgb(186, 191, 202);
+}
+
+body.light-theme .skills-descr,
+body.light-theme .skills-item__subtitle,
+body.light-theme .about-content-descr,
+body.light-theme .project-item-descr,
+body.light-theme .project-item-title {
+    color: black;
+    font-weight: 600;
+}
+
+body.light-theme .nav{
+    background-color: rgb(107, 169, 255);
+    color: black;
+}
