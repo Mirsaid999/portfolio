@@ -615,6 +615,10 @@
     .skills-subtitle{
         display: none;
     }  
+
+    .contact-section{
+        max-width: 425px;
+    }
 }
 
 
